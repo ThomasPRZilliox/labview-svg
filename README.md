@@ -5,9 +5,9 @@
 
 
 # LabVIEW and SVG integration
-The idea behind this project is to demonstrate how to improve User Interface by using SVG and Javascript thanks to the WebView2 control and the websocket API.
+The idea behind this project is to demonstrate how to improve User Interfaces by using SVG and Javascript thanks to the WebView2 control and the WebSocket API.
 
-This project will display the map of France where the User can click on any region to get the name of it. The click of User will be sent back to the server and log in the console.
+This project will display the map of France where the User can click on any region to get the name of it. The click of User will be sent back to the server and logged in the console.
 
 ## Table of content
 - [LabVIEW and SVG integration](#labview-and-svg-integration)
@@ -49,11 +49,11 @@ This project would not have been possible without the following tools, libraries
 
 ## Run the application
 
-Open the labview project [labview-svg.lvproj](./src/labview/labview-svg.lvproj) then open the main.vi and run it. You should have the following window:
+Open the LabVIEW project [labview-svg.lvproj](./src/labview/labview-svg.lvproj) then open the main.vi and run it. You should have the following window:
 
 ![main vi](./doc/main_vi.png)
 
-By clicking on any region you should see the name of the region in the "received data" output and a message in the console log of the web browser. To diplay it, click on it and the press <b> ctrl+shift+i </b>. The following image is an example:
+By clicking on any region you should see the name of the region in the "received data" output and a message in the console log of the web browser. To display it, click on it and press <b> ctrl+shift+i </b>. The following image is an example:
 
 ![clicked](./doc/click.png)
 
@@ -65,15 +65,15 @@ To stop the program click om the red cross or press <b> ctrl+w </b>.
 
 * The debug from the web browser is great and always available (even with a build)
 * Shallow learning curve for basic HTML, CSS and JS with the Websocket API
-* The amount of resources for web related script and all of the free AI tool available
-* The easiness to have clean interface and to not need "to reinvent the wheel"
+* The amount of resources for web related scripts and all of the free AI tools available
+* The easiness of having clean interface and not need "to reinvent the wheel"
 
 ## Cons
 
 * The first time you set a build can be tricky (unfortunately I don't have the required license to give an example)
-* The HTML, CSS and JS script are not compiled, there for not hidden
+* The HTML, CSS and JS scripts are not compiled, therefor not hidden
 
-## When should you use it ?
+## When should you use it?
 
 # License
 Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more information.
