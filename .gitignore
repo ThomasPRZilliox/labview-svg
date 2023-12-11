@@ -1,0 +1,6 @@
+# Build output directory
+builds/
+
+# Projects file that are not required
+*.aliases
+*.lvlps
